@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+.me-auto{
+  padding-left:20px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size:20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hr-about{
+  border: 10px solid#ffff00;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hr-products{
+  border: 10px solid#ffff00;
+  width:170px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact{
+  padding-left:50px;
+  padding-top:50px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-2{
+  padding-left:300px;
+  padding-top:-10px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hr-contact{
+  border: 10px solid#ffff00;
+  width:140px;
 }
+
+.search-input{
+  padding-left:357px;
+}
+
+.subsc-input{
+  border:none;
+}
+
+.subsc-input{
+  border:none;
+}
+
+.hr-accomm{
+  border: 10px solid#ffff00;
+  width:140px;
+}
+
+.hr-main{
+  border: 10px solid#ffff00;
+}
+
+.hr-footer{
+  border: 10px solid black;
+  width:100%;
+}
+
+.hr-f{
+  border: 5px solid#ffff00;
+  width:60px;
+}
+
+.Cri-pic{
+  padding-top:5cm;
+}
+
+.hr-trans{
+  border: 10px solid#ffff00;
+  width:180px;
+}
+
+.footer-color{
+  background-color: rgb(212, 212, 212);
+}
+
+.box{
+  background-color: rgb(212, 212, 212);
+  padding-top: 20px;
+  list-style-type: none;
+  border: 1px solid yellow;
+  width: 300px;
+}
+
+.icons{
+  background-color: transparent!important;
+}
+
+.list-group-item{
+  border: none!important; 
+}
+
