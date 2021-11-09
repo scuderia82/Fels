@@ -8,9 +8,11 @@ import About from './About';
 import Contact from './Contact';
 import Products from './Products';
 import Accommodation from './Accommodation';
-import Gallery from './Gallery'
-import Projects from './Projects'
-import Transport from './Transport'
+import Gallery from './Gallery';
+import Projects from './Projects';
+import Transport from './Transport';
+import Machine from './Machine';
+import Subscribe from './Subscribe';
 
 function App() {
   return (
@@ -41,8 +43,12 @@ function App() {
                 <Route path="/transport">
                   <Transport />
                 </Route>
+                <Route path="/machine">
+                  <Machine />
+                </Route>
                 <Route path="/">
                      <Main />
+                     <Subscribe />
                     <footer>
                       <Footer />
                    </footer>

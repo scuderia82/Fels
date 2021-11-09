@@ -12,16 +12,16 @@ function Contact(){
                 </h6>
                     <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                     <p>
-                       <i className="fa fa-home mr-3" /> Temerin, Srbija 10012
+                       <i className="fa fa-home mr-3" /> Temerin, Srbija 
                     </p>
                     <p>
-                       <i className="fa fa-envelope mr-3" /> info@example.com
+                       <i className="fa fa-envelope mr-3" /> lazarsantrac@gmail.com
                     </p>
                     <p>
-                      <i className="fa fa-phone mr-3" /> + 01 234 567 88
+                      <i className="fa fa-phone mr-3" /> 021/0000000
                     </p>
                     <p>
-                      <i className="fa FaMobile mr-3" />< FaMobile/> + 01 234 567 89
+                      <i className="fa FaMobile mr-3" />< FaMobile/> +381 069/ 234 73 45
                     </p>
             </MDBCol>
             <MDBCol md="4" lg="3" xl="3" className="mb-4 dark-grey-text">
@@ -31,7 +31,7 @@ function Contact(){
                  </h6>
                     <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                     <p>
-                       <i className="fa fa-home mr-3" /> Temerin, Srbija 10012
+                       <i className="fa fa-home mr-3" /> Temerin, Srbija 
                     </p>
                     <p>
                       <i className="fa fa-envelope mr-3" /> info@example.com

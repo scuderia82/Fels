@@ -9,16 +9,18 @@ function Gallery(){
                     <div className="col-md-8 mt-5">
                         <h1 className="font-miriam medium-heading">Galerija</h1>
                         <hr className="hr-accomm" />
-                        <ul>
+                        <ul className="gallery">
                             <li>
-                            <Link to="/projects" className=" text-black text-decoration-none">Projekti </Link>
+                              <Link to="/projects" className=" text-black text-decoration-none">Projekti</Link>
                             </li>
                             <li>Poslovni Prostor</li>
                             <li>Industrijska Hala</li>
                             <li>
-                            <Link to="/transport" className=" text-black text-decoration-none">Transport </Link>
+                              <Link to="/transport" className=" text-black text-decoration-none">Transport</Link>
                             </li>
-                            <li>Masine</li>
+                            <li>
+                              <Link to ="/machine" className=" text-black text-decoration-none">Masine</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

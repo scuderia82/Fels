@@ -6,13 +6,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {FaSearch} from "react-icons/fa";
+import FelsLogo from "../src/fels.logo1.png";
 
 function Header(){
     return(
 
-  <Navbar bg="light" expand="lg">
-      <Container >
-            <Navbar.Brand className="h1 font-weight-bold"href="/main">Fels d.o.o.</Navbar.Brand>
+  <Navbar  className="header-color" expand="lg">
+      <Container className="container-fluid" >
+             <Navbar.Brand href="/main">
+                <div className="logo">
+                 <img src={FelsLogo} alt="fels logo" />
+                </div>
+            </Navbar.Brand> 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
@@ -25,10 +30,10 @@ function Header(){
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="/gallery">Galerija</NavDropdown.Item>
                         </NavDropdown>
-                        <div className="form-group search-input">
-                            <input className="form-control-sm subsc-input" name="email" id="email" placeholder="Search..."/>
-                            <button onClick="" className="subsc-btn btn btn-sm" type="button">< FaSearch/></button>
-                        </div>
+                       {/*  <div className="form-group search-input">
+                            <input className="form-control-sm search-input" name="email" id="email" placeholder="Search..."/>
+                            <button onClick="" className="search-btn  btn-sm" type="button">< FaSearch/></button>
+                        </div> */}
                     </Nav>
             </Navbar.Collapse>
       </Container>

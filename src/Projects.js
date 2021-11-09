@@ -1,5 +1,6 @@
 import React from 'react';
 import Cri from '../src/CRI.png'
+import Ovo from '../src/ov-logo.png'
 function Projects(){
     return(
         <div className="products">
@@ -11,6 +12,10 @@ function Projects(){
                     </div>
                     <div className="cri-pic">
                       <img  src={Cri} alt="cri" />
+                    </div>
+                    <br/>
+                    <div className="ovo-pic">
+                      <img  src={Ovo} alt="ovo" />
                     </div>
                 </div>
             </div> 
