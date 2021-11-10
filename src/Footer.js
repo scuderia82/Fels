@@ -23,7 +23,6 @@ const Footer = () => {
                     <h6 className="text-uppercase font-weight-bold">
                         <Link to="/gallery" className=" text-black text-decoration-none"><strong>Galerija</strong></Link>
                     </h6>
-                    
                 </MDBCol>
                 <MDBCol md="2" lg="2" xl="2" className="mb-4 dark-grey-text">
                     <h6 className="text-uppercase font-weight-bold">

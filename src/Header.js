@@ -5,8 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import {FaSearch} from "react-icons/fa";
+// import {FaSearch} from "react-icons/fa";
 import FelsLogo from "../src/fels.logo1.png";
+import {BsDot} from "react-icons/bs"
 
 function Header(){
     return(
@@ -24,11 +25,11 @@ function Header(){
                         <Nav.Link href="/main">Pocetna</Nav.Link>
                         <Nav.Link href="/about">Reference</Nav.Link>
                         <NavDropdown title="Info" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/products">Proizvodi</NavDropdown.Item>
-                            <NavDropdown.Item href="/contact">Kontakt</NavDropdown.Item>
-                            <NavDropdown.Item href="accommodation">Usluge</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="/gallery">Galerija</NavDropdown.Item>
+                            <NavDropdown.Item href="/products"><BsDot/>Proizvodi</NavDropdown.Item>
+                            <NavDropdown.Item href="/contact"><BsDot/>Kontakt</NavDropdown.Item>
+                            <NavDropdown.Item href="accommodation"><BsDot/>Usluge</NavDropdown.Item>
+                            <NavDropdown.Item href="actual"><BsDot/>Aktuelno</NavDropdown.Item>
+                            <NavDropdown.Item href="/gallery"><BsDot/>Galerija</NavDropdown.Item>
                         </NavDropdown>
                        {/*  <div className="form-group search-input">
                             <input className="form-control-sm search-input" name="email" id="email" placeholder="Search..."/>

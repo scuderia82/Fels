@@ -10,6 +10,7 @@
 
 .hr-about{
   border: 5px solid#fffa07;
+  width:190px;
 }
 
 .hr-products{
@@ -63,7 +64,7 @@
 
 .hr-main{
   border: 5px solid#fffa07;
-  width: 1100px!important;
+  width: 1265px!important;
 }
 
 .h-f{
@@ -161,6 +162,7 @@
  .logo{
    max-width:80px;
  }
+
  .title{
   font-family:Impact;
   padding-top:1cm;
@@ -187,6 +189,15 @@
    margin-top:-0.3cm;
  }
 
+ .hr-act{
+  border: 5px solid#fffa07;
+  width:160px;
+ }
+
+ .hr-production{
+  border: 5px solid#fffa07;
+  width:307px;
+ }
    
  
  

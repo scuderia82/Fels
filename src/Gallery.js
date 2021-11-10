@@ -14,7 +14,9 @@ function Gallery(){
                               <Link to="/projects" className=" text-black text-decoration-none">Projekti</Link>
                             </li>
                             <li>Poslovni Prostor</li>
-                            <li>Industrijska Hala</li>
+                            <li>
+                              <Link to="/production" className=" text-black text-decoration-none">Proizvodni Pogon</Link>
+                            </li>
                             <li>
                               <Link to="/transport" className=" text-black text-decoration-none">Transport</Link>
                             </li>
