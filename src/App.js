@@ -14,8 +14,9 @@ import Transport from './Transport';
 import Machine from './Machine';
 import Subscribe from './Subscribe';
 import Actual from './Actual';
-import Title from './Title';
+// import Title from './Title';
 import Production from './Production';
+import Office from './Office';
 
 function App() {
   return (
@@ -55,15 +56,18 @@ function App() {
                 <Route path="/production">
                   <Production />
                 </Route>
+                <Route path="/office">
+                  <Office />
+                </Route>
                 <Route path="/">
-                    <Title />
                      <Main />
                      <Subscribe />
-                    <footer>
-                      <Footer />
-                   </footer>
+                     <footer>
+                       <Footer />
+                    </footer>
                 </Route>
             </Switch>
+            
          </div>
       </Router>
       

@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-// import {FaSearch} from "react-icons/fa";
+ import {FaSearch} from "react-icons/fa";
 import FelsLogo from "../src/fels.logo1.png";
 import {BsDot} from "react-icons/bs"
 
@@ -15,8 +15,8 @@ function Header(){
   <Navbar  className="header-color" expand="lg">
       <Container className="container-fluid" >
              <Navbar.Brand href="/main">
-                <div className="logo">
-                 <img src={FelsLogo} alt="fels logo" />
+                <div>
+                 <img className="logo" src={FelsLogo} alt="fels logo" />
                 </div>
             </Navbar.Brand> 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -31,10 +31,10 @@ function Header(){
                             <NavDropdown.Item href="actual"><BsDot/>Aktuelno</NavDropdown.Item>
                             <NavDropdown.Item href="/gallery"><BsDot/>Galerija</NavDropdown.Item>
                         </NavDropdown>
-                       {/*  <div className="form-group search-input">
+                         <div className="form-group search">
                             <input className="form-control-sm search-input" name="email" id="email" placeholder="Search..."/>
                             <button onClick="" className="search-btn  btn-sm" type="button">< FaSearch/></button>
-                        </div> */}
+                        </div> 
                     </Nav>
             </Navbar.Collapse>
       </Container>

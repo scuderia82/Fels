@@ -6,7 +6,7 @@ function About(){
         <div className="about">
             <div className="container">
                 <div className="col-md row">
-                    <div className="col-md-8 mt-5 pb-5">
+                    <div className="col-md-12 mt-5 pb-5">
                         <h1 className="font-miriam medium-heading">Reference</h1>
                         <hr className="hr-about" />
                         <ul className="gallery">

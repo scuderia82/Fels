@@ -6,7 +6,7 @@ function Main(){
                 <div className="row main">
                     <h1 className="col-sm-12 title">FELS</h1>
                     <hr className="hr-main" />
-                        <p><b>"Fels d.o.o."</b> je kompanija koja u okviru svog dugogodišnjeg poslovanja poseduje sektor koji se bavi posredovanjem prilikom poslova: prodaja i rentiranje građevinskag zemljišta i indsutrijskih hala, prodaja industrijskih zona, greenfield investicija; ali je <b>"Fels d.o.o." </b>specijalizovan i za posredovanje kada su u pitanju: rentiranje industrijskih hala, rentiranje poslovnih prostora, rentiranje proizvodnih hala i sl. U okviru naše baze podataka nalazi se velik broj informacija koje u sebi sadrže osnovne karakteristike objekata i zemljišta koje posredujemo.
+                    <p><b>"Fels d.o.o."</b> je kompanija koja u okviru svog dugogodišnjeg poslovanja poseduje sektor koji se bavi posredovanjem prilikom poslova: prodaja i rentiranje građevinskag zemljišta i indsutrijskih hala, prodaja industrijskih zona, greenfield investicija; ali je <b>"Fels d.o.o." </b>specijalizovan i za posredovanje kada su u pitanju: rentiranje industrijskih hala, rentiranje poslovnih prostora, rentiranje proizvodnih hala i sl. U okviru naše baze podataka nalazi se velik broj informacija koje u sebi sadrže osnovne karakteristike objekata i zemljišta koje posredujemo.
 
                         Industrijske hale se nalaze u sklopu indrustrijskih zona. Pored same hale, urađena je čitava okolna infrastruktura koja omogućava spajanje industrijske hale sa glavnim putevima. Objekti poseduju sve preduslove za postavku strujne stanice snago od 1 do 2 mw. Do same parcele dovedeni su: gas, voda, kanalizacija i u neposrednoj blizini nalazi se optički kabal za internet.
 

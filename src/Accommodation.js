@@ -4,42 +4,32 @@ import {BiCheckCircle} from "react-icons/bi"
 
 function Accommodation(){
     return(
-        <div>
             <div className="container page">
                 <div className="col-md-12 row">
-                    <div className="col-md-8 mt-5">
+                    <div className="col-md-12 mt-5">
                         <h1 className="font-miriam medium-heading">Usluge</h1>
                         <hr className="hr-accomm" />
-                        <p className="acomm">Kao špedicija nudimo rešenja koja donose dodatnu vrednost vašem poslovanju, bilo da se radi o uvozu, izvozu, propratnim dokumentima. Takođe nudimo kompletnu uslugu vezanu za doradne i reeksportne poslove u spoljno trgovinskom poslovanju</p>
+                        <p className="acomm">Osnovna delatnost našeg preduzeća jeste proizvodnja metalnih konstrukcija. Naš proizvodni pogon nalazi se u Temerinu.
+                        <br/>
+                        <strong>Zašto čelična konstrukcija?</strong>
+                        <br/>Čelik je moderan i pouzdan materijal pogodan za gradnju. Daje veliku slobodu arhitektama i projektantima kako bi se što više približili Vašim potrebama i željama. Odlikuje ga elegancija, jednostavnost i izdržljivost. Pogodan je za sve vrste nadogradnji i kombinacija materijala.</p>
+                        <p><b>Glavne prednosti kada je u pitanju proizvodnja metalnih konstrukcija:</b></p>  
+                        <ul>
+                          <li>moguća potpuna fabrička izrada konstrukcije te samim time montaža gotovih delova;</li>
+                          <li>brza ekološka izgradnja objekta s minimalnim narušavanjem životne sredine;</li>
+                          <li>laka adaptacija na postojeće stanje (prilagođavanje novoj funkciji);</li>
+                          <li>lako održavanje i dugi vek trajanja;</li>
+                          <li>mogućnost demontaže i premeštanja;</li>
+                          <li>laka mogućnost naknadne nadogradnje;</li>
+                          <li>mogućnost kombinovanja različitih materijala;</li>
+                          <li>materijal pogodan za recikliranje koji ne opterećuje okolinu.</li>
+
+
+
+                        </ul>
                     </div>
-                    <div>
-                      <div className="box w-50 p-3">
-                            <ul className="list-unstyled ">
-                            <li>
-                              <a className="text-decoration-none text-black"><BiCheckCircle/> <b>Kvalitet:</b> 100 % evropski kvalitet, uključujući statičke proračune</a>
-                            </li>
-                            <br/>
-                            <li>
-                              <a className="text-decoration-none text-black"><BiCheckCircle/> <b>Više namena:</b> skladištenje, proizvodnja, logistika, radionice</a>
-                            </li>
-                            <br/>
-                            <li>
-                              <a className="text-decoration-none text-black"><BiCheckCircle/> <b>Standardizovanost:</b> u skladu sa evropskim standardima</a>
-                            </li>
-                            <br/>
-                            <li>
-                              <a className="text-decoration-none text-black"><BiCheckCircle/> <b>Fleksibilnost</b> prilagođavanje prostoru i vremenskom planu</a>
-                            </li>
-                            <br/>
-                            <li>
-                              <a className="text-decoration-none text-black"><BiCheckCircle/> <b>Dostupnost:</b> brza isporuka</a>
-                            </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div>
+                  </div> 
+             </div>
     );
 }
 

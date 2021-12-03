@@ -11,17 +11,19 @@ function Gallery(){
                         <hr className="hr-accomm" />
                         <ul className="gallery">
                             <li>
-                              <Link to="/projects" className=" text-black text-decoration-none">Projekti</Link>
-                            </li>
-                            <li>Poslovni Prostor</li>
-                            <li>
-                              <Link to="/production" className=" text-black text-decoration-none">Proizvodni Pogon</Link>
+                              <Link to="/projects" className="text-black text-decoration-none">Projekti</Link>
                             </li>
                             <li>
-                              <Link to="/transport" className=" text-black text-decoration-none">Transport</Link>
+                              <Link to="/office" className="text-black text-decoration-none">Poslovni Prostor</Link>
                             </li>
                             <li>
-                              <Link to ="/machine" className=" text-black text-decoration-none">Masine</Link>
+                              <Link to="/production" className="text-black text-decoration-none">Proizvodni Pogon</Link>
+                            </li>
+                            <li>
+                              <Link to="/transport" className="text-black text-decoration-none">Transport</Link>
+                            </li>
+                            <li>
+                              <Link to ="/machine" className="text-black text-decoration-none">Masine</Link>
                             </li>
                         </ul>
                     </div>

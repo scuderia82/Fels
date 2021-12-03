@@ -9,7 +9,9 @@ function Products(){
                     <div className="col-md-8 mt-5">
                         <h1 className="font-miriam medium-heading">Proizvodi</h1>
                         <hr className="hr-products" />
-                        <p className="products"><b>“Fels d.o.o.”</b> poseduje javno carinsko skladište za carinsku i necarinsku robu, kao i dozvolu za skladištenje roba stranih pravnih lica kao i roba u tranzitu. U javnom carinskom skladištu se obavljaju sve manipulacije robom (uzorkovanje, sortiranje, klasifikacija…)</p>
+                        <p className="products">Svi materijali i čelični elementi koje proizvedemo imaju potrebne ateste.
+                          Sistem izrade objekata od čelične konstrukcije je po sistemu sve na šraf uz minimalnu primenu tehnike zavarivanja na terenu gde se objekat montira. Svojim klijentima možemo ponuditi najpovoljnije cene na tržištu u oblasti crne metalurgije i u oblasti izrade čeličnih konstrukcija.
+                        </p>
                     </div>
                     <div>
                       <div className="box w-50 p-3">
