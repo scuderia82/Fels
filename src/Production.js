@@ -1,5 +1,6 @@
 import React from 'react';
 import 'react-slideshow-image/dist/styles.css';
+import { Slide } from 'react-slideshow-image';
 import Hala from '../src/IMG_203.png';
 import Hala1 from '../src/IMG_202.png';
 import Hala2 from '../src/IMG_204.png';
