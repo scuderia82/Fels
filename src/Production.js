@@ -1,10 +1,7 @@
 import React from 'react';
-import 'react-slideshow-image/dist/styles.css';
-import { Slide } from 'react-slideshow-image';
 import Hala from '../src/IMG_203.png';
 import Hala1 from '../src/IMG_202.png';
 import Hala2 from '../src/IMG_204.png';
-
 
 function Production(){
     return(
@@ -19,10 +16,10 @@ function Production(){
                       <img className="hala-pic" src={Hala} alt="hala"/>
                     </div>
                     <div className="hala1">
-                      <img  className="hala-pic" src={Hala1} alt="hala1" />
+                      <img className="hala-pic" src={Hala1} alt="hala1" />
                     </div>
                     <div className="hala1">
-                      <img  className="hala-pic" src={Hala2} alt="hala2" />
+                      <img className="hala-pic" src={Hala2} alt="hala2" />
                     </div>
                 </div>
             </div> 

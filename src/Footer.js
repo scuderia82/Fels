@@ -8,7 +8,7 @@ import {FiMail} from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <MDBFooter  className="footer-color page-footer font-small lighten-5 pt-0">
+    <MDBFooter  className="footer-color-gallery page-footer font-small lighten-5 pt-0">
       {/* <div>
           <MDBContainer>
                 <MDBRow className="py-4 d-flex align-items-center">
@@ -44,7 +44,7 @@ const Footer = () => {
            <div className="col-md-10">
                   <ul className="list-group list-group-horizontal social">
                       <li className="list-group-item icons">
-                          <a href="">
+                          <a href="https://rs.linkedin.com">
                               <i className="fa-lg text-black mr-md-4"><FaLinkedin /></i>
                           </a>
                       </li>

@@ -67,7 +67,6 @@ function App() {
                     </footer>
                 </Route>
             </Switch>
-            
          </div>
       </Router>
       

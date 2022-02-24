@@ -66,6 +66,10 @@ function Contact(){
             </MDBCol>
         </div>
         
+
+        
+        
+        
       );
 }
 export default Contact;

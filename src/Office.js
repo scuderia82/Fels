@@ -2,7 +2,6 @@ import React from 'react';
 import Hala3 from '../src/IMG_207.png';
 import Hala4 from '../src/IMG_206.png';
 
-
 function Office(){
     return(
         <div>
