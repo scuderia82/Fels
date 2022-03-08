@@ -1,0 +1,33 @@
+.footer-color{
+    background-color:black;
+  }
+
+  .hr-f{
+    border:5px solid rgb(255, 251, 0);
+    width:580px;
+    margin-top:-0.3cm;
+  }
+
+  .footer-p{
+    padding-bottom:35px;
+    padding-top: 25px;
+  }
+  .icons{
+    background-color: transparent!important;
+    padding-top:30px;
+  }
+
+  .social{
+    justify-content:space-between;
+    padding-top:10px;
+    padding-bottom:20px;
+   }
+  
+    .copyright{
+    justify-content:center;
+    padding-bottom:10px;
+   } 
+
+   .list-group-item{
+    border:none!important; 
+  }

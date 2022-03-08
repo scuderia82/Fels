@@ -1,22 +1,22 @@
 import './App.css';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 /*components*/
-import Header from './Header';
-import Footer from './Footer';
-import Main from './Main';
-import About from './About';
-import Contact from './Contact';
-import Products from './Products';
-import Accommodation from './Accommodation';
-import Gallery from './Gallery';
-import Projects from './Projects';
-import Transport from './Transport';
-import Machine from './Machine';
-import Subscribe from './Subscribe';
-import Actual from './Actual';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import About from './components/About';
+import Contact from './components/Contact';
+import Products from './components/Products';
+import Accommodation from './components/Accommodation';
+import Gallery from './components/Gallery';
+import Projects from './components/Projects';
+import Transport from './components/Transport';
+import Machine from './components/Machine';
+import Subscribe from './components/Subscribe';
+import Actual from './components/Actual';
 // import Title from './Title';
-import Production from './Production';
-import Office from './Office';
+import Production from './components/Production';
+import Office from './components/Office';
 
 function App() {
   return (
@@ -62,11 +62,11 @@ function App() {
                 <Route path="/">
                      <Main />
                      <Subscribe />
-                     <footer>
-                       <Footer />
-                    </footer>
                 </Route>
             </Switch>
+            <footer>
+                       <Footer />
+                    </footer>
          </div>
       </Router>
       

@@ -1,0 +1,40 @@
+.me-auto{
+    padding-left:41px !important;
+    font-family:"Libre Franklin", sans-serif;
+    font-size:23px;
+  }
+  
+  .header-color{
+    background-color: #ffffff!important;
+  }
+
+  .logo{
+    max-width:70px;
+  }
+
+  .search-input{
+    border:thin;
+    max-width:80%;
+    height:34px;
+    border-radius:4px;
+    border:1px solid#fffa07;
+    -webkit-transition:0.5s;
+    transition:0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border:3px solid #555;
+  }
+  
+  .search{
+    padding-left:600px; 
+  }
+  
+  .search-btn{
+    border:1px solid #ccc;
+    height:34px;
+    margin-left:15px;
+    background-color: black !important;
+  }
+  
