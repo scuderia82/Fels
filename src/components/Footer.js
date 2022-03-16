@@ -10,14 +10,6 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <MDBFooter  className="footer-color page-footer font-small lighten-5 pt-0">
-      {/* <div>
-          <MDBContainer>
-                <MDBRow className="py-4 d-flex align-items-center">
-                    <MDBCol md="6" lg="5" className="text-center text-md-left mb-4 mb-md-0">
-                    </MDBCol>
-                </MDBRow>
-          </MDBContainer>
-      </div> */}
       <MDBContainer className="text-center col-md-6 footer-p">
             <MDBRow className="mt-3">
                 <MDBCol md="3" lg="4" xl="3" className="mb-4 dark-grey-text">
@@ -67,9 +59,9 @@ const Footer = () => {
                   </ul>
           </div>
       </MDBContainer>
-      <div className=" text-white col-md-12 text-center copyright ">
+      <div className=" text-white col-md-12 text-center copyright">
           <MDBContainer className="footer-copyright ">
-             &copy; {new Date().getFullYear()} Copyright:{"Fels d.o.o. Temerin "}
+             &copy; {new Date().getFullYear()} Copyright:{"Fels d.o.o. Temerin"}
           </MDBContainer>
       </div>
     </MDBFooter>

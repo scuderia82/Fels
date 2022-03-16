@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Subscribe.css';
 
-
 function Subscribe(){
     return(
             <div className="container subsc-color">
@@ -11,7 +10,7 @@ function Subscribe(){
                 </div>
                 <div className=" container form-group">
                     <input className="form-control-md subsc-input" type="text" name="email" id="email" placeholder="Email..."/>
-                    <button onClick = "" className=" btn btn-md text-white" type="button">Prihvati</button>
+                    <button onClick = "" className=" btns btn btn-md text-white" type="button">Prihvati</button>
                </div>
             </div>
         

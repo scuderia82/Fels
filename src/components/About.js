@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/About.css';
+import okrugle from '../assets/okrugle-cevi.png';
 
 function About(){
     return(
@@ -16,7 +18,10 @@ function About(){
               <li>Keramika Jovanović Zrenjanin,</li>
               <li>Imlek mlekara  Novi Sad ,</li>
               <li>Tekstil doo Užice.</li>
+              <br/>
+              <div className="okrugle"style={{ backgroundImage: `url(${okrugle})` }}></div>
             </ul> 
+            
         </div>
 
     );

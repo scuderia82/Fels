@@ -2,6 +2,7 @@ import React from 'react';
 import Hala from '../assets/IMG_203.png';
 import Hala1 from '../assets/IMG_202.png';
 import Hala2 from '../assets/IMG_204.png';
+import '../styles/Transport.css';
 
 function Transport(){
     return(
