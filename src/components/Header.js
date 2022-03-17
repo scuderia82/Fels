@@ -8,10 +8,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 // import {FaSearch} from "react-icons/fa";
 import FelsLogo from "../assets/fels.logo1.png";
 import {BsDot} from "react-icons/bs";
+import {useHistory} from 'react-router-dom'
 
 
 
 function Header(){
+    const history = useHistory();
     const[msg,setMsg] = useState("")
     const getData = (event) => {
         event.preventDefault();
@@ -27,7 +29,7 @@ function Header(){
         fetch('Data.json').then(res => res.json())
         .then(data => {
             if (data.username === username && data.password === password){
-                setMsg("Success");
+                history.push("/login");
             } else {
                 setMsg("Wrong username or password!");
             }

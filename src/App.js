@@ -17,6 +17,7 @@ import Actual from './components/Actual';
 // import Title from './Title';
 import Production from './components/Production';
 import Office from './components/Office';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -58,6 +59,9 @@ function App() {
                 </Route>
                 <Route path="/office">
                   <Office />
+                </Route>
+                <Route path="/login">
+                  <Login />
                 </Route>
                 <Route path="/">
                      <Main />
